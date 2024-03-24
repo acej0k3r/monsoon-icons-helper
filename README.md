@@ -1,4 +1,6 @@
 # Monsoon Icon Extension
+WARNING: THIS IS A HELPER EXTENSION USED TO HAVE EXTRA SVGS SYNC UP WITH MATERIAL ICON. THIS EXTENSION ALONE DOES NOTHING!!! THIS EXTENSION IS USED TO PROVIDE CUSTOM LOCATION PATH FOR THE CUSTOMIZABLE FEATURE PROVIDED BY MATERIAL ICON
+
 
 The "monsoon-icon" extension for Visual Studio Code serves as a storage location for extra icons that can be accessed by other extensions, such as the popular "Material Icon Theme" extension. It is designed to facilitate the synchronization of icons across all instances of Visual Studio Code in any environment.
 
