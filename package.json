@@ -1,7 +1,7 @@
 {
 	"name": "monsoon-icon-helper-mdfaisal",
 	"displayName": "monsoon-icon-helper-mdfaisal",
-	"description": "This extension provides a set of helper locations for working with icons the material icon extension. custom svgs are synced up with this icon across all your vscode instances so that when applying custom icons the path will remain static and work across any global instance.",
+	"description": "THIS EXTENSION ALONE DOES NOTHING! This extension provides a set of helper locations for working with extra icons accessable through material icon extension. custom svgs are synced up with this icon across all your vscode instances so that when applying custom icons the path will remain static and work across any global instance.",
 	"version": "1.0.3",
 	"publisher": "mdfaisal",
 	"author": {
@@ -22,7 +22,14 @@
 		"customization"
 	],
 	"repository": {
-		"url": "https://github.com/acej0k3r/mdfaisal-tealcrow"
+		"url": "https://github.com/acej0k3r/monsoon-icons-helper"
+	},
+	"homepage": "https://github.com/acej0k3r/monsoon-icons-helper/blob/main/README.md",
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		},
+		"virtualWorkspaces": true
 	},
 	"icon": "images/monsoon-logo_128.png",
 	"contributes": {
@@ -31,8 +38,7 @@
 				"id": "monsoon-icon-helper-mdfaisal",
 				"label": "Monsoon Icon helper",
 				"uiTheme": "vs-dark",
-				"path": "./icons/donothing.json",
-				"_watch": true
+				"path": "./icons/donothing.json"
 			}
 		]
 	},
